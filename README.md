@@ -1,10 +1,12 @@
 # TarantulaPy
 
-A minimalistic implementation of Tarantula Program Fault Localization Tool in Python
+A minimalistic implementation of Tarantula Program Fault Localization Technique in Python
 
 ## Getting Started
 
+```
 python tarantula.py <Source_Code> <Test_Suite_File>
+```
 
 If you want to test tarantula on file mid.py
 
@@ -30,13 +32,12 @@ Line	Suspiciousness	Rank	(3, 3, 5)	(1, 2, 3)	(3, 2, 1)	(5, 5, 5)	(5, 3, 4)	(2, 1
 12	0.0		13			elif (x>z):
 13	0.5		7				m = x
 				True		True		True		True		True		False
-
 ```
 
 ## Built With
 
-* [SpiderLab](http://spideruci.org/fault-localization/) - The team behind tarantula technique
-* [Paper](http://spideruci.org/papers/jones05.pdf) - Research Paper on Evaluation and Algorithm itself
+* [SpiderLab](http://spideruci.org/fault-localization/) - The team behind Tarantula technique
+* [Paper](http://spideruci.org/papers/jones05.pdf) - Research Paper on the Algorithm itself and Evaluations
 
 ## Contributing
 
@@ -44,8 +45,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Ali Ahsan** - *Initial work* - [Ali Ahsan](https://github.com/aliahsan07)
-* **Zain Qasmi** - *Initial work* - [Zain Qasmi](https://github.com/ZainQasmi)
+* **Ali Ahsan** - [Ali Ahsan](https://github.com/aliahsan07)
+* **Zain Qasmi** - [Zain Qasmi](https://github.com/ZainQasmi)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
